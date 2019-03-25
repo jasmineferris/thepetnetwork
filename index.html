@@ -1,0 +1,139 @@
+<DOCTYPE!>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Dog Rescue</title>
+    <!-- CUSTOM CSS STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Itim" rel="stylesheet">
+    
+    <!-- ANIMATE CSS STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="animate.css">
+
+    
+    <script>
+        //NAV JAVASCRIPT//
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
+</head>
+
+<body>
+    <!-------NAVIGATION-------->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">adopt</a>
+            <a href="#">sign up</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    
+    <!------- MAIN HEADER ------->
+    <div class="main">
+        <h1 id="title" class="animated bounceInDown">The Pet Network</h1>
+        <h5 id="subtitle">All your local animal rescues in one place</h5>
+    </div>
+    
+    <!-------- ABOUT SECTION ------->
+    <div class="about">
+        <h2 id="about-title">About Us</h2>
+        <p>This is a platform for various animal charities to advertise the animals currently up for adoption and where you can inquire to meet up with your desired pet. We have a wide variety of pets on the Pet Network and recommend you different pets we think best suit your needs and life style.</p>
+        
+        <p>This is a platform for various animal charities to advertise the animals currently up for adoption and where you can inquire to meet up with your desired pet. We have a wide variety of pets on the Pet Network and recommend you different pets we think best suit your needs and life style.</p>
+        
+        <button class="button" style="vertical-align:middle"><span>Sign Up Here</span></button>
+        
+    </div>
+        <div class="slideshow">
+            <h2 id="slideshow-title">Dogs currently looking for a home...</h2>
+            
+        <!------ SLIDESHOW ------>
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+                <img src="images/dog1.jpg" style="width:100%">
+            <div class="text">Ghost, 2 year old Westie</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+                <img src="images/dog2.jpg" style="width:100%">
+            <div class="text">Bruce, 5 Year Old Golden Lab</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+                <img src="images/dog3.jpg" style="width:100%">
+            <div class="text">Cindy, 3 Year Old Black Retriever</div>
+        </div>
+            
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+                <img src="images/cat1.jpg" style="width:100%">
+            <div class="text">Ruby, 3 Year Old Maine Coon</div>
+        </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+    <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+    </div>
+    
+    <footer>
+        
+    </footer>
+        
+<script>
+        
+        // SLIDESHOW //
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+  
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+  
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script> 
+   
+</body>
+
+</html>
