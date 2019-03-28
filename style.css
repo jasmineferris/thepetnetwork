@@ -244,4 +244,9 @@ body {
     .prev, .next,.text {font-size: 11px}
 }
 
+.footer {
+    height: 300px;
+    background-color: aliceblue;
+}
+
 
