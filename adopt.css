@@ -13,26 +13,32 @@
     font-family: 'Pacifico', cursive;
     font-size: 80px;
     text-align: center;
-    padding-top: 0%;   
+    padding-top: 12%;  
 }
 
 .adopt-header {
-    height: 200px;
-    background-color: aqua;
+    height: 450px;
+    background-image: url(images/adopt-banner.jpg);
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#pet-name {
+    font-family: 'Itim', sans-serif;
+    font-size: 40px;
 }
 
 #dog-grid {
