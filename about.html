@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Dog Rescue</title>
+    <title>The Pet Network | About</title>
     <!-- CUSTOM CSS STYLESHEET -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- GOOGLE FONTS -->
@@ -10,5 +10,34 @@
     
     <!-- ANIMATE CSS STYLESHEET -->
     <link rel="stylesheet" type="text/css" href="animate.css">
+    
+    <script>
+        //NAV JAVASCRIPT//
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
     </head>
-    </html>
+    
+    <body>
+        <!-------NAVIGATION-------->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="adopt.html">adopt</a>
+            <a href="sign-up.html">sign up</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+        <div class="about-header">
+            <h1 id="aboutus-title">About Us</h1>
+        </div>
+    </body>
+</html>
