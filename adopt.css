@@ -1,0 +1,45 @@
+/*********** ADOPT **********/
+/***************************/
+
+#adopt-title {
+    font-family: 'Itim', sans-serif;
+    font-size: 50px;
+    padding-top: 7%;
+    text-align: center;
+    color: #fff;
+}
+
+#adopt-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 0%;   
+}
+
+.adopt-header {
+    height: 200px;
+    background-color: aqua;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#dog-grid {
+    padding-top:25px;
+    margin-top: 25px;
+}
+
+.grid-container img {
+    width: 50%;
+}
