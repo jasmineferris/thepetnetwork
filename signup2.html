@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" type="text/css" href="CreativeButtons/css/component.css">
     
-    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="stylesheet" type="text/css" href="css/signup2.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Montserrat|Itim" rel="stylesheet">
     
@@ -50,14 +50,15 @@
 
 </head>
 <body>
-
-<h2>Find a pet - start your search today</h2>
- <p> Are you searching for the perfect pet? Look for cats, kittens, puppies, dogs and more looking for a home near you </p>
+    
+    <div class="form">
+        <h2>Find a pet - start your search today</h2>
+        <p> Are you searching for the perfect pet? Look for cats, kittens, puppies, dogs and more looking for a home near you </p>
 
 
         <label for="What type of pet are you searching for?">What type of pet are you searching for?</label>
 
-       <Select id="animal" name="animal">
+       <select id="animal" name="animal">
           <option value="Please select..">Please select..</option>
 
 
@@ -94,7 +95,7 @@
         <input type="radio" name="Large" value="Large"> Large<br>
         <input type="radio" name="Medium" value="Medium"> Medium<br>
         <input type="radio" name="Small" value="Small"> Small<br>
-        <input type="radio" name="Unspecified" value="Unspecified"> Unspecified <br> <br>
+        <input type="radio" name="Unspecified" value="Unspecified"> Other <br> <br>
 
 
         May live with children: <br>
@@ -116,6 +117,8 @@
       <label for="Is there anything else you'd like us to know">Is there anything else you'd like us to know</label>
     <textarea id="Is there anything else you'd like us to know" name="Is there anything else you'd like us to know" placeholder="Write something.." style="height:200px"></textarea>
       </label>
+        </select>
+    </div>
 
 
            <br><br>
