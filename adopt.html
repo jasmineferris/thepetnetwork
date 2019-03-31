@@ -4,13 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Pet Network | Adopt</title>
     <!-- CUSTOM CSS STYLESHEET -->
-    <link rel="stylesheet" type="text/css" href="adopt.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/adopt.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="CreativeButtons/css/component.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Montserrat|Itim" rel="stylesheet">
     
     <!-- ANIMATE CSS STYLESHEET -->
-    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     
     <script>
         //NAV JAVASCRIPT//
@@ -31,7 +33,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="index.html">home</a>
             <a href="about.html">about</a>
-            <a href="#">adopt</a>
+            <a href="adopt.html">adopt</a>
             <a href="#">sign up</a>
     </div>
     
@@ -42,12 +44,12 @@
     </div>
         
     <div class="grid-container" id="dog-grid">
-        <div class="grid-item">
-        <span id="pet-name">Ghost</span>
+        <div class="grid-item ghost">
+            <span class="pet-name">Ghost</span>
             <br>
             <img src="images/dog1-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info">
+        <div class="grid-item ghost" class="pet-info">
         <ul>
             <li>Ghost is a very energetic puppy looking for lots of attention</li>
             <li>4 months old</li>
@@ -57,14 +59,17 @@
             </ul> <br> 
             <strong>Rescue charity: The Doggie Sanctuary</strong>
         </div>
-        <div class="grid-item" id="findout-btn">Find Out More</div>  
+        <div class="grid-item ghost">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Ghost-->
         
-        <div class="grid-item">
-        <span id="pet-name">Lola</span>
+        <div class="grid-item lola">
+            <span class="pet-name">Lola</span>
             <br>
             <img src="images/dog7.jpg">
         </div>
-        <div class="grid-item" id="pet-info">
+        <div class="grid-item lola" class="pet-info">
             <ul>
                 <li>Lola is looking for a quiet home to settle into.</li>
                 <li>8 years old</li>
@@ -74,41 +79,50 @@
             </ul> <br> 
             <strong>Rescue charity: Furever Homes</strong>
         </div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item lola">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Lola-->
         
-        <div class="grid-item">
-        <span id="pet-name">Kenny</span>
+        <div class="grid-item kenny">
+            <span class="pet-name">Kenny</span>
             <br>
             <img src="images/dog6-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info"><ul>
+        <div class="grid-item kenny" class="pet-info"><ul>
             <li>6 years old</li>
             <li>Breed: Terrier crossbreed</li>
             <li>Recently brought in as a stray</li>
             <li>Very lively but likes his sleep</li>
             <li>Not suitable for a home with cats</li>
             </ul> <br> <strong>Rescue charity: Furever Homes</strong></div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item kenny">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Kenny-->
         
-        <div class="grid-item">
-        <span id="pet-name">Freddy</span>
+        <div class="grid-item freddy">
+            <span class="pet-name">Freddy</span>
             <br>
             <img src="images/cat3-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info"><ul>
+        <div class="grid-item freddy" class="pet-info"><ul>
             <li>3 years old</li>
             <li>Breed: Crossbreed</li>
             <li>Energetic and lively</li>
             <li>Gets on well with other cats and dogs</li>
             </ul> <br> <strong>Rescue charity: The Cat Rescue</strong></div>
-         <div class="grid-item">Find Out More</div>
+        <div class="grid-item freddy">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Freddy-->
         
-        <div class="grid-item">
-        <span id="pet-name">Bruce</span>
+        <div class="grid-item bruce">
+            <span class="pet-name">Bruce</span>
             <br>
             <img src="images/dog2-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info">
+        <div class="grid-item bruce" class="pet-info">
         <ul>
             <li>Bruce is a very well behaved Labrador looking to settle down</li>
             <li>5 Years Old</li>
@@ -117,31 +131,55 @@
             <li>Can be rehomed in a house with cats/dogs</li>
             </ul> <br> 
             <strong>Rescue charity: The Doggie Sanctuary</strong></div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item bruce">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Bruce-->
         
-        <div class="grid-item">
-        <span id="pet-name">Cindy</span>
+        <div class="grid-item cindy">
+            <span class="pet-name">Cindy</span>
             <br>
             <img src="images/dog3-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info">3 Years old.<br> Black Retriever</div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item cindy" class="pet-info">3 Years old.<br> Black Retriever</div>
+        <div class="grid-item cindy">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Cindy-->
         
-        <div class="grid-item">
-        <span id="pet-name">Misty</span>
+        <div class="grid-item misty">
+            <span class="pet-name">Misty</span>
             <br>
             <img src="images/cat2-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info">Misty is a 3 year old cross recently brought in as a stray.<br> Black Retriever</div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item misty" class="pet-info">Misty is a 3 year old cross recently brought in as a stray.<br> Black Retriever</div>
+        <div class="grid-item misty">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>
+        </div>
+        <!--end of Misty-->
         
-        <div class="grid-item">    
-        <span id="pet-name">Ruby</span>
+        <div class="grid-item ruby">    
+            <span class="pet-name">Ruby</span>
             <br>
         <img src="images/cat1-small.jpg">
         </div>
-        <div class="grid-item" id="pet-info">3 Years old.<br> Maine Coon</div>
-        <div class="grid-item">Find Out More</div>
+        <div class="grid-item ruby" class="pet-info">3 Years old.<br> Maine Coon</div>
+        <div class="grid-item ruby">
+            <button class="btn btn-3 btn-3d icon-heart">Find Out More</button>  
+        </div>
+        <!--end of Ruby-->
     </div>
+        
+        <footer>
+            <div class="copyright">
+                <p>&copy 2019 - The Pet Network</p>
+            </div>
+            <div class="footer-nav">
+                <a href="home.html" class="home">Home</a>
+                <a href="about.html" class="about-f">About</a>
+                <a href="adopt.html" class="adopt">Adopt</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+</footer>
     </body>
 </html>
