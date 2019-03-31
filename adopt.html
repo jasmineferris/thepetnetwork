@@ -1,0 +1,75 @@
+<DOCTYPE!>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Pet Network | Adopt</title>
+    <!-- CUSTOM CSS STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="adopt.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Itim" rel="stylesheet">
+    
+    <!-- ANIMATE CSS STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    
+    <script>
+        //NAV JAVASCRIPT//
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
+    </head>
+    
+    <body>
+        <!-------NAVIGATION-------->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="#">adopt</a>
+            <a href="#">sign up</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+    <div class="adopt-header">
+        <h1 id="adopt-title">Adopt a Dog</h1>
+    </div>
+        
+    <div class="grid-container" id="dog-grid">
+        <div class="grid-item">
+            <span>Ghost</span>
+            <br>
+            <img src="images/dog1-small.jpg">
+        </div>
+        <div class="grid-item">2 Years Old.<br> Westie</div>
+        <div class="grid-item">Find Out More</div>  
+        <div class="grid-item">
+            <span>Bruce</span>
+            <br>
+            <img src="images/dog2-small.jpg">
+        </div>
+        <div class="grid-item">5 Years Old.<br> Golden Lab</div>
+        <div class="grid-item">Find Out More</div>
+        <div class="grid-item">
+            <span>Cindy</span>
+            <br>
+            <img src="images/dog3-small.jpg">
+        </div>
+        <div class="grid-item">3 Years old.<br> Black Retriever</div>
+        <div class="grid-item">Find Out More</div>
+        <div class="grid-item">
+            <span>Ruby</span>
+            <br>
+            <img src="images/cat1-small.jpg">
+        </div>
+        <div class="grid-item">3 Years old.<br> Maine Coon</div>
+        <div class="grid-item">Find Out More</div>
+    </div>
+    </body>
+</html>
