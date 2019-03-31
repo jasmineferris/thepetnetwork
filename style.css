@@ -266,10 +266,12 @@ body {
 }
 
 .about-header {
-    height: 400px;
+    height: 450px;
     background-image: url(images/aboutus-banner.jpg);
 }
 
+/************ BLOCKQUOTE ************/
+/***********************************/
 
 /* center the blockquote in the page */
 .blockquote-wrapper {
@@ -283,7 +285,7 @@ body {
     position: relative;
     font-family: 'Barlow Condensed', sans-serif;
     max-width: 620px;
-    margin: 80px auto;
+    margin: 40px auto;
     align-self: center;
 }
 
@@ -321,7 +323,7 @@ body {
     content:"";
     position: absolute;
     width: 80px;
-    border: 6px solid #292a2b;
+    border: 6px solid #fff;
     bottom: -3px;
     left: 50px;
     z-index: 2;
@@ -350,7 +352,18 @@ body {
     padding-left:12px;
 }
 
+/************ ABOUT US INFO ************/
+/***********************************/
 
+.about-info {
+    margin: 5% 25% -5%;
+}
+
+#about-info-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
 
 
 
