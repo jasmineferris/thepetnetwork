@@ -17,7 +17,7 @@
 }
 
 .adopt-header {
-    height: 450px;
+    height: 500px;
     background-image: url(../images/adopt-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,35 +39,35 @@
 /**BACKGROUND COLOURS FOR CELLS**/
 
 .ghost{
-    background-color: aquamarine;
+    background-color: #ff9478;
 }
 
 .lola {
-    background-color:aqua ;
+    background-color:#f1a9a0 ;
 }
 
 .kenny {
-    background-color:bisque ;
+    background-color:#ff9478 ;
 }
 
 .freddy {
-    background-color:blue;
+    background-color:#f1a9a0;
 }
 
 .bruce{
-    background-color:gold;
+    background-color:#ff9478;
 }
 
 .cindy {
-    background-color:green;
+    background-color:#f1a9a0;
 }
 
 .misty {
-    background-color: white;
+    background-color: #ff9478;
 }
 
 .ruby {
-    background-color:orange;
+    background-color:#f1a9a0;
 }
 
 
@@ -86,6 +86,8 @@
 #dog-grid {
     padding-top:25px;
     margin-top: 25px;
+    margin-bottom: 10%;
+    color: #fff;
 }
 
 .grid-container img {
