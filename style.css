@@ -244,10 +244,15 @@ body {
     .prev, .next,.text {font-size: 11px}
 }
 
+/************ FOOTER **************/
+
 .footer {
     height: 300px;
     background-color: aliceblue;
 }
+
+/************ ABOUT US **************/
+/**********************************/
 
 #aboutus-title {
     font-family: 'Pacifico', cursive;
@@ -260,6 +265,18 @@ body {
 .about-header {
     height: 400px;
     background-color: aqua;
+}
+
+/************ ADOPT **************/
+/**********************************/
+
+.adopt-header {
+    height: 450px;
+    background-image: url(images/adopt-banner.jpg);
+}
+
+#adopt-title {
+    padding-top: 10%;
 }
 
 
