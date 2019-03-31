@@ -72,3 +72,6 @@ ul li::before {
     margin-left: -1em;
 }
 
+#findout-btn {
+    padding-top: 40%;
+}
