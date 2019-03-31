@@ -38,7 +38,14 @@
 
 #pet-name {
     font-family: 'Itim', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
+}
+
+#pet-info {
+    padding-top: 30%;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 #dog-grid {
@@ -47,5 +54,5 @@
 }
 
 .grid-container img {
-    width: 50%;
+    width: 60%;
 }
