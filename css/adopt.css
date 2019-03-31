@@ -1,0 +1,107 @@
+/*********** ADOPT **********/
+/***************************/
+
+#adopt-title {
+    font-family: 'Itim', sans-serif;
+    font-size: 50px;
+    padding-top: 7%;
+    text-align: center;
+    color: #fff;
+}
+
+#adopt-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 12%;  
+}
+
+.adopt-header {
+    height: 450px;
+    background-image: url(../images/adopt-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 45px;
+    text-align: justify;
+    
+}
+
+/**BACKGROUND COLOURS FOR CELLS**/
+
+.ghost{
+    background-color: aquamarine;
+}
+
+.lola {
+    background-color:aqua ;
+}
+
+.kenny {
+    background-color:bisque ;
+}
+
+.freddy {
+    background-color:blue;
+}
+
+.bruce{
+    background-color:gold;
+}
+
+.cindy {
+    background-color:green;
+}
+
+.misty {
+    background-color: white;
+}
+
+.ruby {
+    background-color:orange;
+}
+
+
+.pet-name {
+    font-family: 'Itim', sans-serif;
+    font-size: 45px;
+}
+
+.pet-info {
+    padding-top: 25%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#dog-grid {
+    padding-top:25px;
+    margin-top: 25px;
+}
+
+.grid-container img {
+    width: 60%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
