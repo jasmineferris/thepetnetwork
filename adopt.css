@@ -19,6 +19,8 @@
 .adopt-header {
     height: 450px;
     background-image: url(images/adopt-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-container {
