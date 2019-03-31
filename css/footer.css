@@ -9,7 +9,7 @@ $green: #6dcd9a;
 $social-size: 1.2em;
 $social-width: 20%;
 
-* {
+.footer * {
   margin: 0;
   padding: 0;
   @include box-sizing(border-box);
@@ -19,11 +19,11 @@ footer {
   width: 100%;
   display: inline-block;
   margin: 0;
-  height: 100px;
+  height: 200px;
   background-color: #999;
 }
 
-.copyright {
+.footer .copyright {
     width: 50%;
     float: left;
     @media (max-width: 600px) {
@@ -31,7 +31,7 @@ footer {
     }
 }
 
-p {
+.footer p {
     padding-left: 10%;
     color: white;
     font-size: 0.7em;
@@ -50,7 +50,7 @@ p {
       width: 100%;
     }
 }
-a {
+.footer a {
     float: left;
     line-height: 70px;
     padding: 0 2em 0 2em;
