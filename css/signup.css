@@ -81,3 +81,11 @@ button:hover {
      width: 100%;
   }
 }
+
+@media screen and (max-width: 980px) {
+    
+.signup-header {
+    height: 500px;
+
+    }
+}
