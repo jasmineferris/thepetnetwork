@@ -94,8 +94,8 @@ body {
 }
 
 
-.about #img-about {
-    
+#img-about {
+    width: 100%;
 }
 
 /****** SLIDESHOW *******/
